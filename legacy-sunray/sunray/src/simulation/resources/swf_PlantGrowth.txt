@@ -1,0 +1,48 @@
+290 2.731567011
+295 1.890693138
+300 0.987724044
+305 0.350652729
+310 0.096587298
+315 0.036745659
+320 0.027387692
+325 0.02599214
+330 0.024945997
+335 0.023942318
+340 0.022979021
+345 0.022054482
+350 0.02116714
+355 0.0203155
+360 0.019498125
+365 0.018713636
+370 0.017960711
+375 0.017238078
+380 0.01654452
+385 0.015878867
+390 0.015239996
+395 0.00
+400 0.00
+450 0.00
+550 0.00
+650 0.00
+750 0.00
+
+
+
+
+# Action spectrum suggested by:
+# S. D. Flint and M. M. Caldwell
+# "A biological spectral weighting function for ozone depletion research 
+# with higher plants", Physiologia Plantarum, 117,137 144, 2003.
+
+# Spectrum was parameterized with the Equation given in the appendix 
+# of the the paper by Flint and Caldwell:
+
+# A =EXP(4.688272*EXP(-EXP(0.1703411*(w-307.867)/1.15))+((390-w)/121.7557-
+4.183832))
+# with w = wavelength in nm
+
+# NOTE: Flint and Caldwell define the action spectrum as "relative quantum 
+# response". The spectrum is used here "as is", without converting
+# it to energy units.
+
+# Integration range: 286 - 390 nm

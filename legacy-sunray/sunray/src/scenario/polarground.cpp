@@ -1,0 +1,46 @@
+/**
+ * PolarGround - brief description of functionality
+ *
+ * @package default
+ *
+ * @copyright 2007 Computational Photobiology Research Group
+ * @author Josiah Gore
+ * 
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * A copy of the GNU General Public License was provided along with 
+ * this program, and is also available at <http://www.gnu.org/licenses/>.
+ */
+
+#include "polarground.h"
+
+namespace Simulation
+{
+
+	PolarGround::PolarGround ( )
+	{
+	}
+
+	PolarGround::~PolarGround ( ) { }
+
+
+	void PolarGround::setRhoResolution ( double height, double ratio )
+	{
+		rhoResolution = height * ratio;
+	}
+
+	void PolarGround::setPhiResolution ( double res )
+	{
+		phiResolution = res;
+	}
+
+}
+

@@ -1,0 +1,30 @@
+Geodesic Data: Obtained from either Suntracker.f or the Sunray GUI
+1.59032655	, rdayangle [radians]  /note: 1.59032655 ~ sundist = 1./
+60.00		, apsza [degrees]
+180.00		, saz [degrees]
+0.00		, ground elevation ASL [km]
+0.15		, albedo
+0			, fresnel_flag
+0.00		, altitude ASL [km]  /note: set=0.00 for photobiol applic/
+
+Atmospheric Data: Obtained from the Sunray GUI
+280.0		, total column ozone [DU]
+15.0		, visibility [km]
+
+Program Control: Obtained from either GUI or manual edit
+0.0		, body_coord_twist / default= 0./
+180.		, body_geo_orient / direction that model faces /
+15		, grid_res(1) [deg] /polar angle numerical integration res/
+45		, grid_res(2) [deg] /azimuthal angle numerical .../
+180.		, ozone min. valid limit [DU]
+400.		, ozone max. valid limit [DU]
+3.0		, vis. min. valid limit [km]
+60.0		, vis. max. valid limit [km]
+
+Data File Location
+coeff_b_pbio.txt	, beam (direct) coefficients
+coeff_d_pbio.txt	, diffuse sky (Rayleigh scattered) coefficients
+reflectance.txt		, %reflection by wavelength and SL parameter
+swf.txt			, spectral weighting function
+polydata.txt		, polynomial data: x,y,z, slope [deg], aspect[deg]
+radiances.txt		, output file listing by poly, 5 sources of 27 wavebands

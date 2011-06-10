@@ -1,0 +1,36 @@
+290 2.2
+295 1.9
+300 1.0
+305 0.77
+310 0.34
+315 0.11
+320 0.04
+325 0.085
+330 0.0025
+335 0.002
+340 0.0014
+345 0.001
+350 0.00063
+355 0.00049
+360 0.00044
+365 0.00050
+370 0.00008
+375 0.
+380 0.
+385 0.
+390 0.
+395 0.
+400 0.
+450 0.
+550 0.
+650 0.
+750 0.
+
+
+
+# Cataract in Pig 
+# Spectrum suggested by:
+# Oriowa, M, et al 2001
+"Action Spectra for in vitro UV-induced cataract using who lenses.
+
+Ophthalmol. & Visual Science

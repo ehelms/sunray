@@ -1,0 +1,58 @@
+290  7.8527E+00
+295  3.3643E+00
+300  1.0000E+00
+305  1.8191E-01
+310  3.0318E-02
+315  5.0530E-03
+320  8.4217E-04
+325  1.4036E-04
+330  2.3394E-05
+335  3.8990E-06
+340  6.4983E-07
+345  0.0000
+350  0.0000
+355  0.0000
+360  0.0000
+365  0.0000
+370  0.0000
+375  0.0000
+380  0.0000
+385  0.0000
+390  0.0000
+395  0.0000
+400  0.0000
+450  0.0000
+550  0.0000
+650  0.0000
+750  0.0000
+
+
+
+
+
+# Spectrum suggested by:
+# R. B. Setlow, 
+# "The wavelengths in sunlight effective in producing skin cancer: 
+# a theoretical analysis", Proc. Nat. Acad. Sci., USA, 71 , No. 9, 
+# pp. 3363-3366, 1974
+
+# Figure 1 in the paper by Setlow was parameterized as follows.:
+
+# A = 10 ^ (13.04679 + (W * -0.047012))       for 286 <= W <2 90
+# A = 10 ^ (20.75595 + (W * -0.073595))       for 290 <= W < 295
+# A = 10 ^ (30.12706 + (W * -0.105362))       for 295 <= W < 300
+# A = 10 ^ (42.94028 + (W * -0.148073))       for 300 <= W < 305
+# A = 10 ^ (45.24538 + (W * -0.15563)) for 305 <= W < 340
+
+# Resulting action spectrum was normalized to 1 at 300 nm.
+
+# This action spectrum is identical with the action spectrum defined in 
+# the file SetlowBSI.txt, except of the normalization. 
+# Dose rates derived with this action spectrum multipied with 3.2990E-02
+# are idedntical with values labeled "Setlow" in the NSF UV database 3.
+
+# Integration range: 286 - 340 nm
+
+# The action spectrum suggested by Setlow describes the relative biological effect
+# per quantum. For the parameterization given above and the values below it was 
+# assumed that the the action spectrum describes the effect per energy unit.=

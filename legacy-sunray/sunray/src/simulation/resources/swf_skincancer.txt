@@ -1,0 +1,41 @@
+290   4.2000E-01
+295   7.8900E-01
+300   9.9200E-01
+305   5.6700E-01
+310   2.0300E-01
+315   6.1700E-02
+320   1.7600E-02
+325   5.3800E-03
+330   1.9100E-03
+335   8.1000E-04
+340   3.9400E-04
+345   2.4700E-04
+350   2.0000E-04
+355   2.0400E-04
+360   2.5000E-04
+365   3.4700E-04
+370   5.3500E-04
+375   7.7400E-04
+380   9.3000E-04
+385   8.0500E-04
+390   4.2600E-04
+395   1.1500E-04
+400   1.2900E-05
+450    0.00
+550    0.00
+650    0.00
+750    0.00
+
+
+
+# Spectrum based on:
+# F.R. Gruijl, H.J.C.M. Sterenborg, P. D. Forbes,  R.E. Davies, C. Cole, 
+# G. Kelfkens, H. van Weelden, H. Slaper, and J. C. van der Leun, 
+# "Wavelength dependence of skin cancer induction by ultraviolet irradiation of 
+# albino hairless mice", Cancer Res., 53, 53-60, 1993.
+
+# The spectrum was corrected for the transmission of human skin. The 
+# parameterization is the same as used in the radiative transfer code "TUV", 
+# available at www.acd.ucar.edu/TUV/, file SCUP-h
+
+# Integration range: 254 - 400 nm=

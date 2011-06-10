@@ -1,0 +1,53 @@
+290 0.002443566
+295 0.001010005
+300 0.000597685
+305 0.000332756
+310 0.000178993
+315 9.925E-05
+320 6.695E-05
+325 5.107E-05
+330 4.332E-05
+335 3.783E-05
+340 3.332E-05
+345 2.97E-05
+350 2.678E-05
+355 2.385E-05
+360 2.103E-05
+365 1.818E-05
+370 1.555E-05
+375 1.34E-05
+380 1.08E-05
+385 9.207E-06
+390 0.00
+395 0.00
+400 0.00
+450 0.00
+550 0.00
+650 0.00
+750 0.00
+
+
+# Action spectrum for the inhibition of phytoplankton photosynthesis of Phaeodactylum sp.
+#
+
+# Spectrum based on
+# Cullen, J.J., Neale, P.J., and Lesser, M.P., 
+# "Biological weighting function for the inhibition of phytoplankton photosynthesis 
+# by ultraviolet radiation, 
+# Science, 258, 646-649, 1992.
+# The spectrum is given in units of [(mW m^-2)^-1]
+
+# The parameterization is the same as used in the subroutine pbiol1.f and the
+# data file phaeo.bio of the radiative transfer code "TUV", available at 
+# www.acd.ucar.edu/TUV/. 
+
+# NOTE: Solar spectra of the NSF UV monitioring network are provided in 
+# units of [uW/cm^2 nm]. 
+# Spectra weighted with the values given below therefore have the units:
+# [uW / cm^2 * (mW m^-2)^-1]
+# Published values were multiplied with 10 in order to become dimensionless.
+
+# Integration range: 287 - 389 nm
+
+# Column 1 is wavelength
+# Column 2 is response in [(mW m^-2)^-1]=

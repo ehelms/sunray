@@ -1,0 +1,35 @@
+290 1.
+295 1.
+300 1.
+305 0.70
+310 0.35
+315 0.21
+320 0.21
+325 0.22
+330 0.23
+335 0.24
+340 0.26
+345 0.28
+350 0.31
+355 0.35
+360 0.39
+365 0.40
+370 0.28
+375 0.07
+380 0.06
+385 0.05
+390 0.04
+395 0.03
+400 0.03
+450 0.00
+550 0.00
+650 0.00
+750 0.00
+
+
+
+# Melanoma in Platyfish 
+# Spectrum suggested by:
+# Setlow, Grist, Thompson 1993
+Wavelength Effective in Induction of Malignant Melanoma
+Proceedings of the National Academy of Science 90: 6666 - 6670 [03.0xx]

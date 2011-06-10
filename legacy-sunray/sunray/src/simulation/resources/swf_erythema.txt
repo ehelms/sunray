@@ -1,0 +1,49 @@
+290 1
+295 1
+300 0.6486344
+305 0.219786
+310 0.0744732
+315 0.0252348
+320 0.0085507
+325 0.0028973
+330 0.0013646
+335 0.0011482
+340 0.0009661
+345 0.0008128
+350 0.0006839
+355 0.0005754
+360 0.0004842
+365 0.0004074
+370 0.0003428
+375 0.0002884
+380 0.0002427
+385 0.0002042
+390 0.0001718
+395 0.0001445
+400 0.0001216
+450 0.00
+550 0.00
+650 0.00
+750 0.00
+
+
+
+
+# Spectrum suggested by:
+# A.F. McKinlay, A.F. and B.L. Diffey, 
+# "A reference action spectrum for ultraviolet induced erythema in human
+skin", 
+# CIE Research Note, 6(1), 17-22, 1987
+
+# Values are parameterized as follows:
+
+# A =        1            for  250 <= W <= 298
+# A =        10^(0.094(298- W))  for 298 < W < 328
+# A =        10^(0.015(139-W-))  for 328 < W < 400
+
+# Dose rates derived with this action spectrum are part of NSF UV database 3
+and 
+# are labeled "Dose3_CIE_Erythema."
+
+# Integration range: 286 - 400 nm
+# The action spectrum describes effect per energy unit.
