@@ -1,7 +1,8 @@
       program suntracker_
 
 
-      
+      subroutine test_output ()
+ 
       integer*4 day,month,year,yrlength,hour,minute
       integer*4 tsr,tss,asr,ass,julday,lasr,lass,ij,nosr,noss
 
@@ -55,11 +56,11 @@ c      arrays are a function of true solar time
                              
        call output(rlon,rlat,nosr,noss,eqt,year,month,day
      &   ,hour,minute,lasr,lass,apalt,az)
+ 
+      continue
+      continue    
      
-799   continue
-800   continue     
-     
-990   stop
+      return
       end
 c***********************************************************************
 c*******************************output 23feb94**************************

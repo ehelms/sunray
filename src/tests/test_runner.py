@@ -1,8 +1,13 @@
 import unittest
+import os
+import sys
 
-def suite():
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/../' )
+
+from tests.model_tests.suntracker_tests import SuntrackerTest
+
+
+if __name__ == '__main__':
     suite = unittest.TestSuite()
-
-       
-
-    return suite
+    suite.addTest(unittest.makeSuite(SuntrackerTest))
+    unittest.TextTestRunner(verbosity=2).run(suite)
