@@ -1,0 +1,13 @@
+numpy
+Django
+django-debug-toolbar
+south
+django-extensions
+django-devserver
+mongoengine
+pymongo
+sqlparse
+werkzeug
+hamlpy
+django-mediagenerator
+pyyaml
