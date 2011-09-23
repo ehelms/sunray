@@ -2,3 +2,4 @@
 *.swp
 sunray-env
 local_settings.py
+db
