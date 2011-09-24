@@ -1,0 +1,23 @@
+{% load media %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Sunray</title>
+
+    {% media "stylesheets/main.css %}
+    {% block stylesheets %}
+    {% endblock stylesheets %}
+
+    {% media "javascript/common.js %}
+    {% block javascript %}
+    {% endblock javascript %}
+
+  </head>
+  <body>
+    {% block body %}
+    {% endblock body %}
+  </body>
+</html>

@@ -1,4 +1,11 @@
-# Django settings for project project.
+import os
+import sys
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__)) + '/../../'
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__)) + '/../'
+sys.path.insert(0, os.path.join(BASE_DIR))
+sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
+sys.path.insert(0, os.path.join(BASE_DIR, "static/"))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -83,6 +90,7 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
+    'mediagenerator.middleware.MediaMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -90,7 +98,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'project.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -107,6 +115,7 @@ INSTALLED_APPS = (
     'south',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
+    'mediagenerator'
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
