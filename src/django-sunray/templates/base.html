@@ -16,8 +16,10 @@
     {% endblock javascript %}
 
   </head>
+  {% block body %}
   <body>
-    {% block body %}
-    {% endblock body %}
+    {% block content %}
+    {% endblock content %}
   </body>
+  {% endblock body %}
 </html>

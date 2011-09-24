@@ -117,7 +117,8 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     'mediagenerator',
-    'scenario'
+    'scenario',
+    'visualization'
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
@@ -144,5 +145,3 @@ LOGGING = {
         },
     }
 }
-
-GLOBAL_MEDIA_DIRS = (BASE_DIR + 'static/', )
