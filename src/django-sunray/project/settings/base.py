@@ -101,6 +101,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'urls'
 
 TEMPLATE_DIRS = (
+    BASE_DIR + '/templates/',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -115,7 +116,8 @@ INSTALLED_APPS = (
     'south',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
-    'mediagenerator'
+    'mediagenerator',
+    'scenario'
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
@@ -142,3 +144,5 @@ LOGGING = {
         },
     }
 }
+
+GLOBAL_MEDIA_DIRS = (BASE_DIR + 'static/', )
